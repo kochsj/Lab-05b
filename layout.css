@@ -1,0 +1,60 @@
+@media (min-width: 768px){
+    header{
+    height: 7vw;
+    }
+    nav {
+        flex-grow: 1;
+    }
+    main {
+        height: 45vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #main {
+        flex-grow: 4;
+        flex-direction: column;
+    }
+    #articles {
+        display: flex;
+        height: 14vw;
+    }
+    article {
+        flex-grow: 1;
+    }
+    #sections {
+        display: flex;
+        height: 18vw;
+    }
+    section {
+        flex-grow: 1;
+    }
+    footer {
+        height: 13vw;
+    }
+}
+@media (max-width: 768px){
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    #sections {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section {
+        height: 38vw;
+        width: 50%;
+    }
+    footer {
+        height: 12vw;
+    }
+    article {
+        height: 18.5vw;
+    }
+    nav {
+        height: 22vw;
+    }
+    header{
+        height: 11vw;
+    }
+}
